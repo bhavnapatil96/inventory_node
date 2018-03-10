@@ -19,7 +19,7 @@ exports.createCategory=(req,res)=>{
     })
 };
 
-
+//.................................
 exports.deleteCategory=(req,res)=>{
     let query="update category set isDelete=? where categoryId=?"
     let param=[true,req.body.categoryId];
