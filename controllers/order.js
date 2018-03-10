@@ -1,3 +1,6 @@
+
+//......................this is IMP
+
 const {con}=require('../config/conn')
 const bcrypt=require('bcryptjs')
 const mysql=require('mysql')
