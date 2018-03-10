@@ -36,7 +36,7 @@ exports.deleteCategory=(req,res)=>{
             res.json({result})
         }
     })
-};
+};123
 
 exports.getCategory=(req,res)=>{
     let query="select * from category where isDelete=false"
